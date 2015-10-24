@@ -1,11 +1,11 @@
-//document.title = "Desafío Latam"
+document.title = "Desafío Latam"
 //console.log(document)
 
 //	<h1 id="header" class="main-header">HTML5!</h1>
 function cambiarColor(){
-var x = document.getElementById("#mheader");
+var encabezado = document.getElementById("encabezado");
+console.log("encabezado")
 
-alert(x);
 }
 
 cambiarColor()
