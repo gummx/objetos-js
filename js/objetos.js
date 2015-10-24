@@ -6,6 +6,11 @@ document.title = "Desafío Latam"
 var encabezado = document.getElementById("encabezado");
 console.log("encabezado")
 
+function saludar(){
+	var nombreEl = document.getElementById("nombre");
+	var saludoEl = document.getElementById("saludo");
+	saludoEl.innerHTML = "<span>Hola " + nombreEl.value + "</span>";
+ }
 
 
 //cambiarColor()
