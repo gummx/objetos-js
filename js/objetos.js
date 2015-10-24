@@ -2,13 +2,13 @@ document.title = "Desafío Latam"
 //console.log(document)
 
 //	<h1 id="header" class="main-header">HTML5!</h1>
-function cambiarColor(){
+
 var encabezado = document.getElementById("encabezado");
 console.log("encabezado")
 
-}
 
-cambiarColor()
+
+//cambiarColor()
 /*
 var saludo = "Hola mundo";
 

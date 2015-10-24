@@ -7,19 +7,19 @@
 	<!--<script type="text/javascript" src="js/script.js"></script>-->
 	<!--<script type="text/javascript" src="js/ciclos.js"></script>-->
 
-	<script>
-	function changeColor(newColor){
-		var elem = document.getElementById("para1");
-		elem.style.color = newColor;
-	}	
-	</script>
 </head>
 
 <body>
 	<h1 id="encabezado" class="main-header">HTML5!</h1>
-	<p id="para1">Some text</p>
 	<button onclick="changeColor('blue');">blue</button>
 	<button onclick="changeColor('red');">red</button>
+	
+	<script>
+	function changeColor(newColor){
+		var elem = document.getElementById("encabezado");
+		elem.style.color = newColor;
+	}	
+	</script>
 	<script type="text/javascript" src="js/objetos.js"></script>
 </body>
 
