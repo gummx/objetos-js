@@ -1,3 +1,46 @@
+//document.title = "Desafío Latam"
+//console.log(document)
+
+//	<h1 id="header" class="main-header">HTML5!</h1>
+function cambiarColor(){
+var x = document.getElementById("#mheader");
+
+alert(x);
+}
+
+cambiarColor()
+/*
+var saludo = "Hola mundo";
+
+function imprimirSaludo(){
+	console.log(this.saludo)
+} 
+
+var greetings = {
+	saludo: "Hello World!",
+	saludar: imprimirSaludo
+};
+
+var saluti ={
+	saludo: "Ciao mondo!",
+	saludar: imprimirSaludo
+};
+
+greetings.saludar();
+saluti.saludar();
+imprimirSaludo();
+
+function mostrar(){
+	return this
+}
+//Uso "avanzado" de JS (call):
+console.log(mostrar());
+console.log(mostrar.call(greetings));
+console.log(mostrar.call(saluti));
+*/
+
+
+/*
 function imprimePersonaje (personaje) {
 	console.log("Soy " + personaje.nombre + " y tengo: " +
 	personaje.numVidas + " vidas, " +
@@ -34,6 +77,9 @@ imprimePersonaje(wario);
 
 imprimePersonaje(mario);
 imprimePersonaje(luigi);
+*/
+
+
 /*
 var obj1 = {}
 
