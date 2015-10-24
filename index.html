@@ -10,24 +10,13 @@
 </head>
 
 <body>
-	<h1 id="encabezado" class="main-header">HTML5!</h1>
-	<button onclick="changeColor('blue');">blue</button>
-	<button onclick="changeColor('red');">red</button>
+	<h1 id="header" class="main-header">HTML5 + JS!</h1>
 	<input id="nombre" type="text" placeholder="Escribe tu nombre">
-	<button onclick="saludar()">Saluda</button>
+	<button id="btnSaludo">Saluda</button>
 	<p id="saludo"> </p>
-
-
-
-
-	<script>
-	function changeColor(newColor){
-		var elem = document.getElementById("encabezado");
-		elem.style.color = newColor;
-	}	
-	</script>
-	<script type="text/javascript" src="js/objetos.js"></script>
 	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="js/objetos.js"></script>
+
 </body>
 
 </html>
