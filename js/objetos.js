@@ -1,3 +1,15 @@
+$.ajax({
+  url: "http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=bd82977b86bf27fb59a04b61b657fb6f",
+
+  success: function( data ) {
+  	console.log(data);
+    $( "#saludo" )
+    .html(data.weather[0].main );
+  }
+});
+
+/*
+
 document.title = "Desafío Latam"
 //console.log(document)
 
@@ -18,3 +30,4 @@ function saludar(){
  }
 
 $("#btnSaludo").click(saludar);
+*/
